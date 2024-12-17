@@ -93,7 +93,7 @@ def decompress_image(input_file, output_image_path):
 
 # Example Usage
 # Compress
-compress_image(r"CV2.jpg", block_size=4, codebook_size=16, output_file="compressed_data.pkl")
+compress_image(r"C:\Test\Test\Test\Test.png", block_size=4, codebook_size=16, output_file="compressed_data.pkl")
 
 # Decompress
 decompress_image("compressed_data.pkl", "decompressed_image.png")
